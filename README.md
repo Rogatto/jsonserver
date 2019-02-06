@@ -7,7 +7,7 @@ NPM: https://www.npmjs.com/
 json-server: npm install -g json-server
 
 
-para executar o json server:
+para executar o json server via terminal e no diretorio do arquivo db.json:
 
 json-server --watch db.json
 
