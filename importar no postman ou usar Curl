@@ -1,0 +1,18 @@
+curl -X PUT \
+  http://localhost:3000/cateno/1 \
+  -H 'Content-Type: application/json' \
+  -H 'Postman-Token: 43711af1-a89d-4c48-a840-74aa44e49308' \
+  -H 'cache-control: no-cache' \
+  -d '{
+    "id": "1",
+    "cpfusuario": "18262826051",    
+    "issuercode": "855247",
+    "numbermachine": "0757661",
+    "client_id": "c8da779c-304f-3204-b5db-67bab9d32871",
+    "access_token": "f8f94be4-b80c-30cc-8a43-8aab4e3c5ee7",
+    "password": "Guilherme#123",
+    "establishment_cnpj": "57310220000139",
+    "host": "https://api-cateno.sensedia.com/hlg/iris",
+    "authorization_gmail": "teste"
+}
+'
